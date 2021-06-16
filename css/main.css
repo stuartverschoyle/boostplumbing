@@ -493,7 +493,7 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-brand {
-  top: 0px;
+  top: 10px;
   padding: 0px 0px;
 }
 
