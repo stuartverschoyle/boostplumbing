@@ -314,6 +314,13 @@ button:focus {
 .behance a:hover {
   background: #0B7CFF;
 }
+.slicknav_btn {
+  border:0;
+}
+.slicknav_menu .slicknav_no-text {
+  margin: 0;
+  display: none;
+}
 
 /* ==========================================================================
 	 2.4  Pre Loader
@@ -487,6 +494,7 @@ button:focus {
 
 .top-nav-collapse .navbar-brand {
   top: 0px;
+  padding: 0px 0px;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -535,13 +543,6 @@ button:focus {
   display: none;
 }
 
-.slicknav_btn {
-  border-color: #F3B220;
-}
-
-.slicknav_menu .slicknav_icon-bar {
-  background: #F3B220;
-}
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -568,8 +569,13 @@ button:focus {
   }
   .navbar-brand {
     position: absolute;
-    padding: 15px;
-    top: 0;
+    padding: 20px;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .navbar-brand img {
     width: 70%;
