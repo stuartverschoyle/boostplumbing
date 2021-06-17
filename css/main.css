@@ -493,7 +493,7 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-brand {
-  top: 10px;
+  top: 0px;
   padding: 0px 0px;
 }
 
@@ -570,7 +570,7 @@ button:focus {
   .navbar-brand {
     position: absolute;
     padding: 20px;
-    top: 10px;
+    top: 10px!important;
     left: 0;
     width: 100%;
     text-align: center;
