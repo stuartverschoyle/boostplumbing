@@ -1056,12 +1056,6 @@ button:focus {
   text-align: center;
 }
 
-.testimonial-item img {
-  width: 80px;
-  border: 3px solid #fff;
-  height: 80px;
-  border-radius: 50%;
-}
 
 .testimonial-item .testimonial-text h3 {
   font-size: 15px;
